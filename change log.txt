@@ -1,0 +1,18 @@
+Joes change log
+
+20th June 04.15
+- edited vehicle weapon spawns in serverVars.sqf
+- edited gear in randomWeapon.sqf
+
+20th June 05.00
+- edited weapons crates in boxcreation.sqf
+-edited fn refill box.sqf
+
+20th June 06.20
+- playtest results - fix gear spawning. Medics cannot heal? Engineers cannot repair?
+
+21st June 14.30
+- Weapons added to gunstore
+- Guntore equipment issues - Flashbangs, rope, IED etc
+- playtest results - gear spawning fixed. Repair Kits work
+- Remember to fix pricing!
