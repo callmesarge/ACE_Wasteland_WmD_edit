@@ -124,7 +124,7 @@ switch(_selectedBox) do {
         _currBox addWeaponCargoGlobal ["ACE_AKS74P_1P29",1];
         _currBox addWeaponCargoGlobal ["ACE_AK105_PSO",1];
         _currBox addWeaponCargoGlobal ["ACE_SVD_Bipod",1];
-        _currBox addWeaponCargoGlobal ["CE_RPK74M_1P29",2];
+        _currBox addWeaponCargoGlobal ["ACE_RPK74M_1P29",2];
         
         _currBox addWeaponCargoGlobal ["Sa61_EP1",4];	
 		_currBox addWeaponCargoGlobal ["ACE_Backpack_CivAssault",4];
@@ -235,7 +235,7 @@ switch(_selectedBox) do {
 		clearWeaponCargoGlobal _currBox;
         
         // Add new weapons before ammunition
-        _currBox addWeaponCargoGlobal ["CE_EVO3_SD_CCO_L",2];
+        _currBox addWeaponCargoGlobal ["ACE_MP5A4",2];
         _currBox addWeaponCargoGlobal ["ACE_HK416_D10_COMPM3_SD",2];
         _currBox addWeaponCargoGlobal ["ACE_SOC_M4A1_GL_SD",2];
         _currBox addWeaponCargoGlobal ["SCAR_L_CQC_EGLM_Holo",2];
@@ -251,7 +251,7 @@ switch(_selectedBox) do {
         
         // Add ammunition
         _currBox addMagazineCargoGlobal ["ACE_Battery_Rangefinder",4];
-        _currBox addMagazineCargoGlobal ["ACE_30Rnd_9x19_S_EVO",30];
+        _currBox addMagazineCargoGlobal ["30Rnd_9x19_MP5",30];
         _currBox addMagazineCargoGlobal ["ACE_30Rnd_9x19_S_UZI",30];
         _currBox addMagazineCargoGlobal ["ACE_CLAYMORE_M",10];
         _currBox addMagazineCargoGlobal ["ACE_30Rnd_556x45_S_Stanag",50];

@@ -117,7 +117,14 @@ ammoArray = [
     ["1 Carl-Gustav Shot","MAAWS_HEAT",200],  
     ["1 AT SMAW Rocket","SMAW_HEAA",250],
 	//Batteries	
-	["1 Rangefinder Battery","ACE_Battery_Rangefinder",10]
+	["1 Rangefinder Battery","ACE_Battery_Rangefinder",10],
+		["120M Fast Rope","ACE_Rope_M_120",60],
+		["1 Hand Grenade","ACE_DM51A1",50],
+    ["1 FlashBang","ACE_M84",20],
+    ["1 Tear Gas Grenade","ACE_RG60A",20],
+    ["1 Willy Pete Grenade","ACE_M34",30],
+    ["1 FlashBang","ACE_Flashbang",20],
+    ["Satchel Charge","PipeBomb",200]
 ];
 
 //Gun Store Equipment List
@@ -131,14 +138,8 @@ accessoriesArray = [
 	["Balaklava","ACE_GlassesBalaklava",10],
 	["Gas Mask","ACE_GlassesGasMask2_US",50],
 	["Safety Goggles","ACE_GlassesLHD_glasses",20],
-	["Ear Plugs","ACE_Earplugs",10],
-	["120M Fast Rope","ACE_Rope_M_120",60],
-		["1 Hand Grenade","ACE_DM51A1",50],
-    ["1 FlashBang","ACE_M84",20],
-    ["1 Tear Gas Grenade","ACE_RG60A",20],
-    ["1 Willy Pete Grenade","ACE_M34",30],
-    ["1 FlashBang","ACE_Flashbang",20],
-    ["1 IED","PMC_ied_v4 ",200]
+	["Ear Plugs","ACE_Earplugs",10]
+
 ];
 
 //General Store Item List

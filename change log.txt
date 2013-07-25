@@ -16,3 +16,9 @@ Joes change log
 - Guntore equipment issues - Flashbangs, rope, IED etc
 - playtest results - gear spawning fixed. Repair Kits work
 - Remember to fix pricing!
+
+23st June 22.30
+- Moved extra gunstore items (rope etc) to ammo. Changed IED to pipebomb
+
+24th June 19.00
+- Fixed weapon crate syntax issues.  pipebomb in store tested and working
