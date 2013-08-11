@@ -13,105 +13,106 @@ _pos = _this select 1;
 
 //Anti Air no weapon
 _leader = _group createunit ["Priest", [(_pos select 0) + 30, _pos select 1, 0], [], 0.5, "Form"];
-_leader addMagazine "Strela";
-_leader addWeapon "Strela";
-_leader addMagazine "30Rnd_545x39_AK";
-_leader addMagazine "30Rnd_545x39_AK";
-_leader addMagazine "30Rnd_545x39_AK";
-_leader addMagazine "30Rnd_545x39_AK";
-_leader addMagazine "30Rnd_545x39_AK";
-_leader addMagazine "30Rnd_545x39_AK";
-_leader addWeapon "AKS_74_U";
+_leader addMagazine "Stinger";
+_leader addWeapon "Stinger";
+_leader addMagazine "30Rnd_556x45_Stanag";
+_leader addMagazine "30Rnd_556x45_Stanag";
+_leader addMagazine "30Rnd_556x45_Stanag";
+_leader addMagazine "30Rnd_556x45_Stanag";
+_leader addMagazine "30Rnd_556x45_Stanag";
+_leader addMagazine "30Rnd_556x45_Stanag";
+_leader addWeapon "ACE_HK416_D10_Holo";
+
 
 //Support
 _man2 = _group createunit ["Woodlander4", [(_pos select 0) - 30, _pos select 1, 0], [], 0.5, "Form"];
-_man2 addMagazine "75Rnd_545x39_RPK";
-_man2 addMagazine "75Rnd_545x39_RPK";
-_man2 addMagazine "75Rnd_545x39_RPK";
-_man2 addMagazine "75Rnd_545x39_RPK";
-_man2 addWeapon "RPK_74";
+_man2 addMagazine "100Rnd_556x45_BetaCMag";
+_man2 addMagazine "100Rnd_556x45_BetaCMag";
+_man2 addMagazine "100Rnd_556x45_BetaCMag";
+_man2 addMagazine "100Rnd_556x45_BetaCMag";
+_man2 addWeapon "ACE_MG36";
+_man2 addWeapon "ACE_Rucksack_MOLLE_Brown_Medic";
 
 //Rifle_man
-_man3 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) + 30, 0], [], 0.5, "Form"];
-_man3 addMagazine "PG7VR";
-_man3 addMagazine "PG7VR";
-_man3 addMagazine "PG7VR";
-_man3 addWeapon "RPG7V";
-_man3 addMagazine "30Rnd_762x39_AK47";
-_man3 addMagazine "30Rnd_762x39_AK47";
-_man3 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man3 addWeapon "AK_47_M";
+_man3 addMagazine "ACE_TBG7V";
+_man3 addMagazine "ACE_TBG7V";
+_man3 addWeapon "ACE_RPG7V_PGO7";
+_man3 addMagazine "30Rnd_556x45_Stanag";
+_man3 addMagazine "30Rnd_556x45_Stanag";
+_man3 addMagazine "30Rnd_556x45_Stanag";
+_man3 addMagazine "30Rnd_556x45_Stanag";
+_man3 addMagazine "30Rnd_556x45_Stanag";
+_man3 addWeapon "ACE_M27_IAR_ACOG";
 
 //Rifle_man
 _man4 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) + 40, 0], [], 0.5, "Form"];
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addWeapon "AK_47_M";
+_man4 addMagazine "30Rnd_556x45_G36";
+_man4 addMagazine "30Rnd_556x45_G36";
+_man4 addMagazine "30Rnd_556x45_G36";
+_man4 addMagazine "30Rnd_556x45_G36";
+_man4 addMagazine "30Rnd_556x45_G36";
+_man4 addWeapon "ACE_G36K_EOTech";
 
 //Sniper
 _man5 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) - 30, 0], [], 0.5, "Form"];
-_man5 addMagazine "10Rnd_762x54_SVD";
-_man5 addMagazine "10Rnd_762x54_SVD";
-_man5 addMagazine "10Rnd_762x54_SVD";
-_man5 addMagazine "10Rnd_762x54_SVD";
-_man5 addMagazine "10Rnd_762x54_SVD";
-_man5 addWeapon "SVD";
+_man5 addMagazine "ACE_20Rnd_762x51_B_M14";
+_man5 addMagazine "ACE_20Rnd_762x51_B_M14";
+_man5 addMagazine "ACE_20Rnd_762x51_B_M14";
+_man5 addMagazine "ACE_20Rnd_762x51_B_M14";
+_man5 addMagazine "ACE_20Rnd_762x51_B_M14";
+_man5 addWeapon "ACE_M14_ACOG";
+_man5 addWeapon "ACE_CharliePack";
 
 //Grenadier
 _man6 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) - 40, 0], [], 0.5, "Form"];
-_man6 addMagazine "30Rnd_545x39_AK";
-_man6 addMagazine "30Rnd_545x39_AK";
-_man6 addMagazine "30Rnd_545x39_AK";
-_man6 addMagazine "30Rnd_545x39_AK";
-_man6 addMagazine "30Rnd_545x39_AK";
-_man6 addMagazine "1Rnd_HE_GP25";
-_man6 addMagazine "1Rnd_HE_GP25";
-_man6 addMagazine "1Rnd_HE_GP25";
-_man6 addWeapon "AK_74_GL";
+_man6 addMagazine "30Rnd_556x45_Stanag";
+_man6 addMagazine "30Rnd_556x45_Stanag";
+_man6 addMagazine "30Rnd_556x45_Stanag";
+_man6 addMagazine "30Rnd_556x45_Stanag";
+_man6 addMagazine "30Rnd_556x45_Stanag";
+_man6 addMagazine "ACE_1Rnd_HE_M203";
+_man6 addMagazine "ACE_1Rnd_HE_M203";
+_man6 addMagazine "ACE_1Rnd_HE_M203";
+_man6 addWeapon "ACE_M4A1_HWS_GL_UP_F";
 
 //Support
 _man7 = _group createunit ["Woodlander4", [(_pos select 0) - 40, _pos select 1, 0], [], 0.5, "Form"];
-_man7 addMagazine "75Rnd_545x39_RPK";
-_man7 addMagazine "75Rnd_545x39_RPK";
-_man7 addMagazine "75Rnd_545x39_RPK";
-_man7 addMagazine "75Rnd_545x39_RPK";
-_man7 addWeapon "RPK_74";
+_man7 addMagazine "100Rnd_762x51_M240 ";
+_man7 addMagazine "100Rnd_762x51_M240 ";
+_man7 addMagazine "100Rnd_762x51_M240 ";
+_man7 addMagazine "100Rnd_762x51_M240 ";
+_man7 addWeapon "ACE_M60";
 
 //Grenadier
 _man8 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) + 50, 0], [], 0.5, "Form"];
-_man8 addMagazine "30Rnd_545x39_AK";
-_man8 addMagazine "30Rnd_545x39_AK";
-_man8 addMagazine "30Rnd_545x39_AK";
-_man8 addMagazine "30Rnd_545x39_AK";
-_man8 addMagazine "30Rnd_545x39_AK";
-_man8 addMagazine "1Rnd_HE_GP25";
-_man8 addMagazine "1Rnd_HE_GP25";
-_man8 addMagazine "1Rnd_HE_GP25";
-_man8 addWeapon "AK_74_GL";
+_man8 addMagazine "30Rnd_556x45_Stanag";
+_man8 addMagazine "30Rnd_556x45_Stanag";
+_man8 addMagazine "30Rnd_556x45_Stanag";
+_man8 addMagazine "30Rnd_556x45_Stanag";
+_man8 addMagazine "30Rnd_556x45_Stanag";
+_man8 addMagazine "ACE_1Rnd_HE_M203";
+_man8 addMagazine "ACE_1Rnd_HE_M203";
+_man8 addMagazine "ACE_1Rnd_HE_M203";
+_man8 addWeapon "ACE_M4A1_HWS_GL_UP_F";
 
 //Sniper
 _man9 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) - 50, 0], [], 0.5, "Form"];
-_man9 addMagazine "10Rnd_762x54_SVD";
-_man9 addMagazine "10Rnd_762x54_SVD";
-_man9 addMagazine "10Rnd_762x54_SVD";
-_man9 addMagazine "10Rnd_762x54_SVD";
-_man9 addMagazine "10Rnd_762x54_SVD";
-_man9 addWeapon "SVD";
+_man9 addMagazine "ACE_5Rnd_127x99_B_TAC50";
+_man9 addMagazine "ACE_5Rnd_127x99_B_TAC50";
+_man9 addMagazine "ACE_5Rnd_127x99_B_TAC50";
+_man9 addMagazine "ACE_5Rnd_127x99_B_TAC50";
+_man9 addMagazine "ACE_5Rnd_127x99_B_TAC50";
+_man9 addWeapon "ACE_TAC50";
 
 //Rifle_man
 _man10 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) + 30, 0], [], 0.5, "Form"];
-_man10 addMagazine "30Rnd_762x39_AK47";
-_man10 addMagazine "30Rnd_762x39_AK47";
-_man10 addMagazine "30Rnd_762x39_AK47";
-_man10 addMagazine "30Rnd_762x39_AK47";
-_man10 addMagazine "30Rnd_762x39_AK47";
-_man10 addMagazine "30Rnd_762x39_AK47";
-_man10 addWeapon "AK_47_M";
+_man10 addMagazine "30Rnd_556x45_Stanag";
+_man10 addMagazine "30Rnd_556x45_Stanag";
+_man10 addMagazine "30Rnd_556x45_Stanag";
+_man10 addMagazine "30Rnd_556x45_Stanag";
+_man10 addMagazine "30Rnd_556x45_Stanag";
+_man10 addMagazine "30Rnd_556x45_Stanag";
+_man10 addWeapon "SCAR_L_CQC_Holo";
 
 // Add event handlers for dropping items and money.
 _leader addEventHandler ["Killed", {[_this] call createLootMoney;}];

@@ -13,10 +13,13 @@ _car = _this select 0;
 
 _num = floor (random 100);
 if (_num < 75) then { _car addWeaponCargoGlobal ["Binocular", 1]};
-if (_num < 85) then { _car addWeaponCargoGlobal ["ACE_GlassesLHD_glasses", 1]};
-if (_num < 55) then { _car addWeaponCargoGlobal ["ACE_GlassesBalaklava", 1]};
+if (_num < 45) then { _car addWeaponCargoGlobal ["ACE_GlassesLHD_glasses", 1]};
+if (_num < 10) then { _car addWeaponCargoGlobal ["ACE_GlassesBalaklava", 1]};
 if (_num < 95) then { _car addWeaponCargoGlobal ["ACE_Earplugs", 1]};
-if (_num < 45) then { _car addWeaponCargoGlobal ["ACE_Coyote_Pack_Wood", 1]};
+if (_num < 50) then { _car addWeaponCargoGlobal ["ACE_Morphine", 2]};
+if (_num < 33) then { _car addWeaponCargoGlobal ["ACE_Epinephrine", 2]};
+if (_num < 95) then { _car addWeaponCargoGlobal ["ACE_LargeBandage", 4]};
+if (_num < 35) then { _car addWeaponCargoGlobal ["ACE_Coyote_Pack_Wood", 1]};
 if (_num < 15) then { _car addWeaponCargoGlobal ["NVgoggles", 1]};
 
 //Get Random Gun From randomWeapons Array.
