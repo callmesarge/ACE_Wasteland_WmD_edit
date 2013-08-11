@@ -117,6 +117,8 @@ armedMilitaryVehicles = ["ArmoredSUV_PMC",
 							"HMMWV_M2",
 							"HMMWV_Armored",
 							"HMMWV_MK19",
+							"ACE_Truck5tMGOpen",
+							"Pickup_PK_INS",
 							"HMMWV_TOW",
 							"GAZ_Vodnik"];
 
@@ -178,6 +180,8 @@ staticWeaponsList = ["M2StaticMG_US_EP1",
 				"DSHKM_TK_INS_EP1",
                 "BAF_L2A1_Tripod_D",
 				"MK19_TriPod",
+				"2b14_82mm_CZ_EP1",
+				"ZU23_CDF",
 				"KORD_high"];
 
 //Object List - Random Helis.
